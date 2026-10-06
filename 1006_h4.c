@@ -12,7 +12,7 @@ int main()
             scanf("%d",&dollars);
             printf("請輸入黑名單狀態(1是、0否):");
             scanf("%d",&status);
-            if(overage>=dollars && status==0)
+            if(login==1&&overage>=dollars && status==0)
             {
                 printf("可以提款");
             }
