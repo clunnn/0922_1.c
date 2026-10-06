@@ -3,7 +3,7 @@ int main()
         { int login ;
           int overage;  
           int dollars;
-          int state ;
+          int status ;
             printf("請輸入登入狀態(1已登入、0未登入) :"); 
             scanf("%d",&login); 
             printf("請輸入帳戶餘額 :"); 
@@ -11,8 +11,8 @@ int main()
             printf("請輸入提款金額：");
             scanf("%d",&dollars);
             printf("請輸入黑名單狀態(1是、0否):");
-            scanf("%d",&state);
-            if(overage>=dollars && state==0)
+            scanf("%d",&status);
+            if(overage>=dollars && status==0)
             {
                 printf("可以提款");
             }
