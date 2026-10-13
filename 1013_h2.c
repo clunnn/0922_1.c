@@ -2,7 +2,7 @@
 int main() 
 {
     int option ;
-    printf("請輸入飲料選項:\n1. 紅茶 30元\n2. 綠茶 35元\n3. 奶茶 50元\n4. 果汁 45元\n");
+    printf("飲料選項有:\n1. 紅茶 30元\n2. 綠茶 35元\n3. 奶茶 50元\n4. 果汁 45元\n請輸入飲料選項:");
     scanf("%d",&option);
     switch(option)
     {
