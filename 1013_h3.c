@@ -8,7 +8,7 @@ int main()
         {
             printf(" ",j);
         }
-        for(k=1;k<=2*i-1;k++)
+        for(j=1;j<=2*i-1;j++)
         {
             printf("@",k);
         }
